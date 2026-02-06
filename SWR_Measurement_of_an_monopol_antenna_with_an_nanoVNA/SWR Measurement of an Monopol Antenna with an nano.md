@@ -152,25 +152,13 @@ $$
 S_{mn} = \dfrac{V_{out, m}}{V_{in, n}} \quad \text{or} \quad S_{11} = \dfrac{b_1}{a_1} \Big|_{a_2 =0} \ S_{21} = \dfrac{b_2}{a_1} \Big|_{a_2 =0} \ S_{12} = \dfrac{b_1}{a_2} \Big|_{a_1 =0} \ S_{22} = \dfrac{b_2}{a_2} \Big|_{a_1 =0} 
 $$
 
-summerized in 
+summarized in 
 
 $$
-\begin{bmatrix}
-b_1 \\\
-b_2 
-\end{bmatrix}
-=
-\begin{bmatrix}
-S_{11} & S_{12}\\\
-S_{21} & S_{22}
-\end{bmatrix}
-\begin{bmatrix}
-a_1 \\\
-a_2 
-\end{bmatrix}
+\begin{bmatrix}b_1 \\\ b_2\end{bmatrix} = \begin{bmatrix}S_{11} & S_{12} \\\ S_{21} & S_{22}\end{bmatrix} \begin{bmatrix}a_1 \\\ a_2\end{bmatrix}
 $$
 
-We can calculate the follwoing important quantities from the S-parameters:
+We can calculate the following important quantities from the S-parameters:
 
 The **Return Loss**:
 
