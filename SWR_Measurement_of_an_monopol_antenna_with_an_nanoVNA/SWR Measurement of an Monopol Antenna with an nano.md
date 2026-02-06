@@ -1,8 +1,4 @@
----
-output:
-  html_document: default
-  pdf_document: default
----
+
 # Introduction
 
 In telecommunication systems, it is often important to know how far the bandwidth of a given antenna actually extends.
@@ -146,7 +142,9 @@ $$
 
 Electrical circuits are often most effectively analyzed as **two-port networks**. In many cases, we may not know exactly how a circuit or antenna will behave under different conditions, such as varying frequencies. A common way to study the circuit’s behavior is to measure how much of an incoming wave is reflected or transmitted at the circuit’s ports. For a two-port network, we distinguish between the **incident waves** $a$ entering the circuit and the **reflected (or outgoing) waves** $b$ on port 1 and 2 for a two port network. 
 
-![](./Doc/Figures/2acf79bc97663159ed4ec7f5401091b9.png)
+![](./Doc/Figures/Two_Port_Circuit.png)
+
+(https://en.wikipedia.org/wiki/Two-port_network#/media/File:Two_Port_Circuit.svg)
 
 The S-Parameters are the defiend by the incident and outgoing waves:
 
@@ -158,16 +156,16 @@ summerized in
 
 $$
 \begin{bmatrix}
-b_1 \\
+b_1 \\\
 b_2 
 \end{bmatrix}
 =
 \begin{bmatrix}
-S_{11} & S_{12}\\
+S_{11} & S_{12}\\\
 S_{21} & S_{22}
 \end{bmatrix}
 \begin{bmatrix}
-a_1 \\
+a_1 \\\
 a_2 
 \end{bmatrix}
 $$
